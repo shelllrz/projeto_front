@@ -1,0 +1,26 @@
+#menu {
+    width: 100%;
+    height: 100px; /* Altura padrão de menu profissional */
+    background: linear-gradient(90deg, #2B0202 0%, #7D1111 35%, #850404 38%, #2B0202 100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999; /* Garante que o menu esteja na frente de TUDO */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza a logo no meio do menu */
+    border-bottom: 2px solid gold; /* Adiciona uma borda inferior para destaque */
+}
+
+#logo {
+    width: 200px; 
+    height: 80px; /* Menor que o menu para não vazar */
+    background-image: url('./img/logo.png'); /* Verifique se o nome é logo.png */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    position: relative; /* Garante que respeite o z-index */
+    z-index: 10000;
+}
+

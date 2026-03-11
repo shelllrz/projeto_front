@@ -1,0 +1,34 @@
+
+   body {
+    width: 100%;
+    height: 100vh; /* Garante que o body ocupe toda a altura da viewport */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Evita que a página balance para os lados */
+    background-color:#F9F7F2; 
+   
+}
+
+.banner {
+    width: 100%; /* Ocupa toda a largura da viewport */
+    height: 500px; /* Ocupa toda a altura da viewport */
+    background-image: url('./img/comida.png'); 
+    background-size: cover; /* Cobre toda a área do banner */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    margin-top: -20px; /* Empurra o banner para baixo do menu fixo */
+    position: relative; /* Permite posicionamento relativo para o banner */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./img/comida.png');
+    border-top: 2px solid #6e5629; /* Adiciona uma borda inferior para destaque */
+    border-bottom: 2px solid #6e5629; /* Adiciona uma borda inferior para destaque */
+}
+
+
+
+iframe{
+    width:100%; /* Ocupa toda a largura da viewport */
+    height:120px; /* Altura do menu */
+    border:none; /* Remove a borda do iframe */
+    display:block; /* Garante que o iframe seja tratado como um bloco */
+    
+}
